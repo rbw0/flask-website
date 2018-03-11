@@ -683,7 +683,17 @@ extensions = [
         ''',
         docs='http://flask-snow.readthedocs.io/en/latest/',
         github='rbw0/flask-snow'
-    ),    
+    ),
+    Extension('Flask-Journey', 'Robert Wikman',
+        description='''
+            <p>
+              Provides a clean, declarative way of importing and managing blueprints. 
+              Additionally, the extension also enables simple and consistent methods of 
+              (de)serialization and validation in blueprint enabled views.
+        ''',
+        docs='http://flask-journey.readthedocs.io/en/latest/',
+        github='rbw0/flask-journey'
+    ),
 ]
 
 
